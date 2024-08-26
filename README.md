@@ -10,9 +10,9 @@
 
 ###
 
-<div align="center">
-  <img height="200" src="https://media.giphy.com/media/IQiYn5Nul6FyKkvYhI/giphy.gif" alt="GIF de lutador de boxe"  />
-</div>
+<br clear="both">
+
+<img align="left" height="200" src="https://media.giphy.com/media/IQiYn5Nul6FyKkvYhI/giphy.gif"  />
 
 ###
 
