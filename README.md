@@ -5,7 +5,7 @@
 <br clear="both">  
 
 <div align="left">  
-  <img height="200" src="https://media1.giphy.com/media/IQiYn5Nul6FyKkvYhI/giphy.gif" alt="GIF de boas-vindas" />  
+  <img height="200" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzJjcTJ2OW9leXFsM212MG4xOHo2dnY5cmJ1ZWJoOGlsbGUwenc0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IQiYn5Nul6FyKkvYhI/giphy-downsized-large.gif" alt="GIF de boas-vindas" />  
 </div>  
 
 <br clear="both">  
