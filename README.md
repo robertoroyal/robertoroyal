@@ -3,9 +3,7 @@
 <h2 align="left">Olá! 👋 Como você está? Seja muito bem-vindo ao meu perfil! Fico feliz em tê-lo aqui!</h2>  
 
 <br clear="both">  
-
-# Olá! 👋  
-
+ 
 <div align="left">  
   <img height="200" src="https://media.giphy.com/media/IQiYn5Nul6FyKkvYhI/giphy.gif" alt="GIF de lutador de boxe" />  
 </div> 
