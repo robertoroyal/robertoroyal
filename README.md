@@ -4,9 +4,11 @@
 
 <br clear="both">  
 
+# Olá! 👋  
+
 <div align="left">  
   <img height="200" src="https://media.giphy.com/media/IQiYn5Nul6FyKkvYhI/giphy.gif" alt="GIF de lutador de boxe" />  
-</div>  
+</div> 
 
 <br clear="both">  
 
