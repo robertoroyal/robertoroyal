@@ -5,7 +5,7 @@
 <br clear="both">  
 
 <div align="left">  
-  <img height="200" src="https://media.giphy.com/media/IQiYn5Nul6FyKkvYhI/giphy.gif" alt="GIF de boas-vindas" />  
+  <img height="200" src="https://media.giphy.com/media/xUPGcjv28F3w9kVZSO/giphy.gif" alt="GIF de vencedor" />  
 </div>  
 
 <br clear="both">  
