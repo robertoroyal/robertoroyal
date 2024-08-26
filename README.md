@@ -10,7 +10,7 @@
 
 <br clear="both">  
 
-<p align="left"><strong>Meu nome é Roberto Silva</strong> ,sou estudante de programação e desenvolvimento web.</p>  
+<p align="left"><strong>Meu nome é Roberto Silva</strong>, sou estudante de programação e desenvolvimento web.</p>  
 
 <br clear="both">  
 
