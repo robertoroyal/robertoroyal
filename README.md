@@ -18,7 +18,7 @@
 
 <br clear="both">
 
-<p align="left">✨ Creating bugs since 2024<br>📚 I'm currently learning Desenvolvedor com experiência em lojas Magento, atualmente me especializando na plataforma.
+<p align="left">✨ Creating bugs since 2024<br>📚 Desenvolvedor com experiência em lojas Magento, atualmente aprimorando minhas habilidades na plataforma.
  <br>🎯 Goals: Ser Conhecido e Respeitado<br>🎲 Fun fact: Em tudo no mundo da tecnologia.</p>
 
 ###
