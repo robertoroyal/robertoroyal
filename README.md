@@ -12,7 +12,7 @@
 
 <br clear="both">
 
-<img align="left" height="200" src="https://github.com/robertoroyal/Foto/blob/main/Treino%20boxe/Nova%20pasta/Imagem%20do%20WhatsApp%20de%202024-08-25.jpg"  />
+<img align="left" height="200" src="https://github.com/robertoroyal/Foto/blob/main/Treino%20boxe/Imagem%20do%20WhatsApp%20de%202024-08-25%20%C3%A0(s)%2018.31.38_dd432447.jpg"  />
 
 ###
 
