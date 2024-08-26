@@ -4,9 +4,9 @@
 
 ###
 
-<div align="center">
-  <img height="200" src="https://i.pinimg.com/originals/0f/e5/15/0fe515b5475d3ca6096353c1656f5736.gif"  />
-</div>
+<br clear="both">
+
+<img align="left" height="200" src="https://i.pinimg.com/originals/0f/e5/15/0fe515b5475d3ca6096353c1656f5736.gif"  />
 
 ###
 
