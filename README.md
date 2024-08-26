@@ -4,11 +4,13 @@
 
 <br clear="both">  
 
-<img align="left" height="200" src="https://i.pinimg.com/originals/0f/e5/15/0fe515b5475d3ca6096353c1656f5736.gif" alt="GIF de boas-vindas" />  
+<div align="left">  
+  <img height="200" src="https://i.pinimg.com/originals/0f/e5/15/0fe515b5475d3ca6096353c1656f5736.gif" alt="GIF de boas-vindas" />  
+</div>  
 
 <br clear="both">  
 
-<p align="left">Meu nome é <strong>Roberto Royal</strong> e sou estudante de programação e desenvolvimento web.</p>  
+<p align="left"><strong>Meu nome é Roberto Royal</strong> e sou estudante de programação e desenvolvimento web.</p>  
 
 <br clear="both">  
 
@@ -52,6 +54,7 @@
 
 <br clear="both">  
 
+<h3 align="left">Conecte-se comigo:</h3>  
 <div align="left">  
   <a href="https://www.instagram.com/robertto_royal/" target="_blank">  
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />  
