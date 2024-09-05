@@ -18,7 +18,7 @@
 </div>  
 
 <h3 align="left" class="mt-6 text-2xl font-semibold">Conecte-se comigo:</h3>  
-<div align="left" class="flex space-x-4 mt-2">  
+<div align="left" class="flex space-x-4 mt-2"> 
   <a href="https://www.instagram.com/robertto_royal/" target="_blank">  
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />  
   </a>  
