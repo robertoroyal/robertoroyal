@@ -27,7 +27,7 @@
     });  
 
   // Função para buscar notícias de tecnologia  
-  const apiKey = 'a44dd0536a28417fba8c492b9a2a773d'; // Substitua pelo seu API Key da News API  
+  const apiKey = 'YOUR_NEWS_API_KEY'; // Substitua pelo seu API Key da News API  
   fetch(`https://newsapi.org/v2/everything?q=technology&sortBy=publishedAt&apiKey=${apiKey}`)  
     .then(response => response.json())  
     .then(data => {  
@@ -40,21 +40,3 @@
       document.getElementById('tech-news').innerText = 'Erro ao carregar notícias';  
     });  
 </script>
-<h3 align="left" class="mt-6 text-2xl font-semibold">Conecte-se comigo:</h3>  
-<div align="left" class="flex space-x-4 mt-2"> 
-  <a href="https://www.instagram.com/robertto_royal/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />  
-  </a>  
-  <a href="https://www.facebook.com/joseroberto.dasilva/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo" />  
-  </a>  
-  <a href="https://www.youtube.com/@RRobertoRoyal" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo" />  
-  </a>  
-  <a href="https://www.linkedin.com/in/joserobertodasilva917610022/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />  
-  </a>  
-  <a href="https://web.telegram.org/a/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo" />  
-  </a>  
-</div>
