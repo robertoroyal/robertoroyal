@@ -36,17 +36,4 @@
   </a>  
 </div>  
 
-<h3 align="left" class="mt-6 text-2xl font-semibold">Meus Repositórios do GitHub:</h3>  
-<p align="left" class="text-lg" id="repo-count">Carregando repositórios...</p>  
 
-<script>  
-  fetch('https://api.github.com/users/robertoroyal/repos')  
-    .then(response => response.json())  
-    .then(data => {  
-      document.getElementById('repo-count').innerText = `Número de repositórios: ${data.length}`;  
-    })  
-    .catch(error => {  
-      console.error('Erro ao buscar repositórios:', error);  
-      document.getElementById('repo-count').innerText = 'Erro ao carregar repositórios';  
-    });  
-</script>
