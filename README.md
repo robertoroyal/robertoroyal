@@ -27,7 +27,7 @@
     });  
 
   // Função para buscar notícias de tecnologia  
-  const apiKey = 'YOUR_NEWS_API_KEY'; // Substitua pelo seu API Key da News API  
+  const apiKey = 'a44dd0536a28417fba8c492b9a2a773d'; // Substitua pelo seu API Key da News API  
   fetch(`https://newsapi.org/v2/everything?q=technology&sortBy=publishedAt&apiKey=${apiKey}`)  
     .then(response => response.json())  
     .then(data => {  
