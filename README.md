@@ -17,6 +17,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo" />  
 </div>  
 
+<h3 align="left" class="mt-6 text-2xl font-semibold">Notícias em tempo real:</h3>   
+<div id="news" class="flex flex-col space-y-4"></div>  
+
 <h3 align="left" class="mt-6 text-2xl font-semibold">Conecte-se comigo:</h3>  
 <div align="left" class="flex space-x-4 mt-2">   
   <a href="https://www.instagram.com/robertto_royal/" target="_blank">  
@@ -36,4 +39,26 @@
   </a>  
 </div>  
 
+<script>
+// Substitua com sua chave de API
+const API_KEY = '040912216cdf4ba489567dd8324a8d71';
+const url = `https://newsapi.org/v2/top-headlines?category=technology&language=pt&apiKey=${API_KEY}`;
 
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    const newsContainer = document.getElementById('news');
+    data.articles.forEach(article => {
+      const newsItem = document.createElement('div');
+      newsItem.innerHTML = `
+        <h4 class="text-xl font-bold">${article.title}</h4>
+        <p>${article.description}</p>
+        <a href="${article.url}" target="_blank">Leia mais</a>
+      `;
+      newsContainer.appendChild(newsItem);
+    });
+  })
+  .catch(error => {
+    console.error('Erro ao carregar notícias:', error);
+  });
+</script>
