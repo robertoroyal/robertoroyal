@@ -57,7 +57,7 @@
     }  
   }  
 
-  const apiKey = 'a44dd0536a28417fba8c492b9a2a773d'; // Substitua pela sua chave da API de forma segura  
+  const apiKey ='a44dd0536a28417fba8c492b9a2a773d'; // Substitua pela sua chave da API de forma segura  
   fetchTrendingRepos();  
   fetchTechNews(apiKey);  
 </script>  
