@@ -6,47 +6,37 @@
 
 <p align="left" class="mt-4 text-lg">✨ Creating bugs since 2024<br>📚 Desenvolvedor com experiência em lojas Magento, atualmente aprimorando minhas habilidades na plataforma.<br>🎯 Goals: Mãos à obra.<br>🎲 Fun fact: Tecnologia e Inovação.</p>   
 
-<h3 align="left" class="mt-6 text-2xl font-semibold">I code with:</h3>   
-<div align="left" class="flex space-x-2 mt-2">  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />   
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo" />  
-</div>  
+<h3 align="left" class="mt-6 text-2xl font-semibold">Repositórios Populares do GitHub:</h3>  
+<ul id="trending-repos" class="list-disc pl-5 text-lg">Carregando repositórios...</ul>  
 
-<h3 align="left" class="mt-6 text-2xl font-semibold">Conecte-se comigo:</h3>  
-<div align="left" class="flex space-x-4 mt-2">   
-  <a href="https://www.instagram.com/robertto_royal/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />  
-  </a>  
-  <a href="https://www.facebook.com/joseroberto.dasilva/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo" />  
-  </a>  
-  <a href="https://www.youtube.com/@RRobertoRoyal" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo" />  
-  </a>  
-  <a href="https://www.linkedin.com/in/joserobertodasilva917610022/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />  
-  </a>  
-  <a href="https://web.telegram.org/a/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo" />  
-  </a>  
-</div>  
-
-<h3 align="left" class="mt-6 text-2xl font-semibold">Meus Repositórios do GitHub:</h3>  
-<p align="left" class="text-lg" id="repo-count">Carregando repositórios...</p>  
+<h3 align="left" class="mt-6 text-2xl font-semibold">Últimas Notícias de Tecnologia:</h3>  
+<ul id="tech-news" class="list-disc pl-5 text-lg">Carregando notícias...</ul>  
 
 <script>  
-  fetch('https://api.github.com/users/robertoroyal/repos')  
+  // Função para buscar repositórios populares do GitHub  
+  fetch('https://api.github.com/search/repositories?q=created:>2023-01-01&sort=stars&order=desc')  
     .then(response => response.json())  
     .then(data => {  
-      document.getElementById('repo-count').innerText = `Número de repositórios: ${data.length}`;  
+      const repos = data.items.slice(0, 5); // Pega os 5 repositórios mais populares  
+      const repoList = repos.map(repo => `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a> - ${repo.stargazers_count} estrelas</li>`).join('');  
+      document.getElementById('trending-repos').innerHTML = repoList;  
     })  
     .catch(error => {  
-      console.error('Erro ao buscar repositórios:', error);  
-      document.getElementById('repo-count').innerText = 'Erro ao carregar repositórios';  
+      console.error('Erro ao buscar repositórios populares:', error);  
+      document.getElementById('trending-repos').innerText = 'Erro ao carregar repositórios';  
+    });  
+
+  // Função para buscar notícias de tecnologia  
+  const apiKey = 'a44dd0536a28417fba8c492b9a2a773d'; // Substitua pelo seu API Key da News API  
+  fetch(`https://newsapi.org/v2/everything?q=technology&sortBy=publishedAt&apiKey=${apiKey}`)  
+    .then(response => response.json())  
+    .then(data => {  
+      const articles = data.articles.slice(0, 5); // Pega os 5 artigos mais recentes  
+      const newsList = articles.map(article => `<li><a href="${article.url}" target="_blank">${article.title}</a> - ${new Date(article.publishedAt).toLocaleString()}</li>`).join('');  
+      document.getElementById('tech-news').innerHTML = newsList;  
+    })  
+    .catch(error => {  
+      console.error('Erro ao buscar notícias de tecnologia:', error);  
+      document.getElementById('tech-news').innerText = 'Erro ao carregar notícias';  
     });  
 </script>
