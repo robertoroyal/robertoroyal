@@ -6,7 +6,7 @@
 
 <p align="left" class="mt-4 text-lg">✨ Creating bugs since 2024<br>📚 Desenvolvedor com experiência em lojas Magento, atualmente aprimorando minhas habilidades na plataforma.<br>🎯 Goals: Mãos à obra.<br>🎲 Fun fact: Tecnologia e Inovação.</p>   
 
-<h3 align="left" class="mt-6 text-2xl font-semibold">I code with:</h3>   
+<h3 align="left" class="mt-6 text-2xl font-semibold">I code with:</h3>    
 <div align="left" class="flex space-x-2 mt-2">  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />   
