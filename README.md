@@ -5,7 +5,7 @@
 <img align="left" height="200" src="https://github.com/robertoroyal/Foto/blob/main/Treino%20boxe/Imagem%20do%20WhatsApp%20de%202024-08- 25%20%C3%A0(s)%2018.31.38_dd432447.jpg" class="rounded-full border-2 border-blue-500" />    
  
 <p align="left" class="mt-4 text-lg">✨ Creating bugs since 2024<br>📚 Desenvolvedor com experiência em lojas Magento, atualmente aprimorando minhas habilidades na plataforma.<br>🎯 Goals: Mãos à obra.<br>🎲 Fun fact: Tecnologia e Inovação.</p>     
-     
+      
 <h3 align="left" class="mt-6 text-2xl font-semibold">I code with:</h3>    
 <div align="left" class="flex space-x-2 mt-2">  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />  
