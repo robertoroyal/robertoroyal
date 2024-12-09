@@ -1,5 +1,5 @@
 <h2 align="left" class="text-3xl font-bold text-blue-600">Olá! 👋 Como você está? Seja muito bem-vindo ao meu perfil! Fico feliz em tê-lo aqui!</h2>                 
-                   
+                     
 <p align="left" class="mt-4 text-lg">Meu nome é <strong>Roberto Silva</strong>, sou estudante de programação e desenvolvimento Web.</p>  
             
 <img align="left" height="200"  src="https://github.com/robertoroyal/Foto/blob/main/Treino%20boxe/Imagem%20do%20WhatsApp%20de%202024-08-25%20%C3%A0(s)%2018.31.38_dd432447.jpg?raw=true" class="rounded-full border-2 border-blue-500" />       
