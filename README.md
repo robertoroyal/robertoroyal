@@ -1,7 +1,7 @@
 <h2 align="left" class="text-3xl font-bold text-blue-600">Olá! 👋 Como você está? Seja muito bem-vindo ao meu perfil! Fico feliz em tê-lo aqui!</h2>                                                                             
                                                                                                        
 <p align="left" class="mt-4 text-lg">Meu nome é <strong>Roberto Silva</strong>, sou estudante de programação e desenvolvimento Web.</p>          
-                                                 
+                                                    
                                                     
 <p align="left" class="mt-4 text-lg">✨ Creating bugs since 2024<br>📚 Desenvolvedor com experiência em lojas Magento, atualmente aprimorando minhas habilidades na plataforma.<br>🎯 Goals: Mãos à obra.<br>🎲 Fun fact: Tecnologia e Inovação.</p>           
                      
