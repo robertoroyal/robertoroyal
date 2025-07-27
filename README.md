@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Meu nome é Roberto Silva, estudante de programação e atuando como Front-End Developer  Veja meus projetos...!</p>
+<p align="left">Meu nome é Roberto Silva, estudante de programação e atuando como Front-End Developer.  Veja meus projetos...!</p>
 
 ###
 
